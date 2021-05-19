@@ -1,0 +1,56 @@
+.sku {
+    color: grey;
+}
+
+.product {
+    border: dotted 1px gray;
+    margin:20px;
+    padding: 20px;
+}
+
+.price {
+    color: red;
+    font-size: 22px;
+}
+
+.add_section{
+	display:flex;
+	justify-content:space-around;
+}
+.add_form{
+	display:flex;
+	width:80%;
+	flex-direction:column;
+}
+.add_form input{
+	padding:5px;
+	font-size:14pt;
+	margin:1%;
+}
+.add_form button{
+	padding:5px;
+	font-size:14pt;
+	margin:1%;
+}
+
+.edit_section{
+	display:flex;
+	justify-content:space-around;
+}
+.edit_form{
+	display:flex;
+	flex-direction:column;
+	width:45%;
+}
+.edit_form input{
+	padding:5px;
+	font-size:14pt;
+	margin:1%;
+}
+.edit_form button{
+	padding:5px;
+	font-size:14pt;
+	margin:1%;
+}
+
+
